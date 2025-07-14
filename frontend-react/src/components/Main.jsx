@@ -1,9 +1,12 @@
 import React from 'react'
 import Bytton from './Button'
+import Headder from './Header'
+import Footer from './Footer'
 
 function Main() {
   return (
     <>
+    
       <div className='container'>
         <div className='p-5 text-center bg-light-dark rounded'>
           <h1 className='text-light'>Stock Prediction portal</h1>
@@ -11,6 +14,7 @@ function Main() {
           <Bytton text='Login' class='btn-outline-info' />
         </div>
       </div>
+    
     </>
   )
 }
