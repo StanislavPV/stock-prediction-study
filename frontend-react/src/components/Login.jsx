@@ -30,7 +30,7 @@ const Login = () => {
       localStorage.setItem('refreshToken', response.data.refresh)
       console.log('Login successful:', response.data);
       setIsLoggedIn(true)
-      navigate('/')
+      navigate('/dashboard')
 
     }catch(error) {
       console.error('Error during login:' );
